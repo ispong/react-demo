@@ -1,0 +1,31 @@
+.contain-div {
+    border: black solid 1px;
+    margin-bottom: 10px;
+    height: 300px;
+    width: 100%;
+    background: blanchedalmond;
+    display: flex;
+    align-items: center;
+
+    .son-div-1 {
+        height: 200px;
+        width: 100px;
+        background: #b07ff1;;
+    }
+    .son-div-2 {
+        height: 200px;
+        width: 100px;
+        flex: 1;
+        background: #f6ffed;;
+    }
+    .son-div-3 {
+        height: 200px;
+        width: 100px;
+        background: chocolate;
+    }
+    .son-div-4 {
+        height: 200px;
+        width: 100px;
+        background: aquamarine;
+    }
+}

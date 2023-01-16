@@ -1,0 +1,110 @@
+.contain-div {
+    border: black solid 1px;
+    margin-bottom: 10px;
+    height: 300px;
+    width: 100%;
+    background: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .son-div {
+        height: 200px;
+        width: 200px;
+        background: #b07ff1;;
+    }
+}
+
+.contain-div-1 {
+    display: grid;
+    border: black solid 1px;
+    margin-bottom: 10px;
+    height: 300px;
+    width: 100%;
+    background: blanchedalmond;
+
+    .son-div {
+        height: 200px;
+        width: 200px;
+        background: #b07ff1;
+        align-self: center;
+        justify-self: center;
+    }
+}
+
+.contain-div-2 {
+    border: black solid 1px;
+    margin-bottom: 10px;
+    height: 300px;
+    width: 100%;
+    background: blanchedalmond;
+    position: relative;
+
+    .son-div {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        height: 200px;
+        width: 200px;
+        background: saddlebrown;
+    }
+}
+
+.contain-div-3 {
+    border: black solid 1px;
+    margin-bottom: 10px;
+    height: 300px;
+    width: 100%;
+    background: blanchedalmond;
+    position: relative;
+
+    .son-div {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        height: 200px;
+        width: 200px;
+        background: saddlebrown;
+    }
+}
+
+.contain-div-4 {
+    border: black solid 1px;
+    margin-bottom: 10px;
+    height: 300px;
+    width: 100%;
+    background: blanchedalmond;
+    text-align: center;
+    line-height: 300px;
+
+    .son-div {
+        display: inline-block;
+        vertical-align: middle;
+        height: 200px;
+        line-height: 200px;
+        width: 200px;
+        background: saddlebrown;
+    }
+}
+
+.contain-div-5 {
+    border: black solid 1px;
+    margin-bottom: 10px;
+    height: 300px;
+    width: 100%;
+    background: blanchedalmond;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+
+    .son-div {
+        height: 200px;
+        width: 200px;
+        background: saddlebrown;
+        display: inline-block;
+    }
+}
